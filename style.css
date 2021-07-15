@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+}
+.menu{
+  text-align: center;
+  top: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width:100px;
+  padding: 20px 40px;
+  font-weight: lighter;
+}
+.header{
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+  background-image: url(images/polygons.png);
+  background-position: top center;
+  margin-top: 10px;
+
+}
+.header a{
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#about-company h2{
+  text-align: center;
+}
+#about-company{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align:justify;
+}
+#about-company img{
+  width: 400px;
+  float: right;
+  margin: 30px;
+  margin-top: 0;
+}
+#team{
+  text-align: center;
+}
+.member{
+  display: inline-block;
+  width: 20%;
+  min-width: 340px;
+  vertical-align: top;
+  margin: 20px 10px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0 2px 5px gray;
+
+}
+.member img{
+  width: 100%
+
+}
